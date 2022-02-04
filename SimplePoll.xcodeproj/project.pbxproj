@@ -14,6 +14,17 @@
 		9259D889274451D40060636C /* SimplePollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9259D888274451D40060636C /* SimplePollTests.swift */; };
 		9259D893274451D40060636C /* SimplePollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9259D892274451D40060636C /* SimplePollUITests.swift */; };
 		9259D895274451D40060636C /* SimplePollUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9259D894274451D40060636C /* SimplePollUITestsLaunchTests.swift */; };
+		926CAC3227447BA200AB0459 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC3127447BA200AB0459 /* HomeView.swift */; };
+		926CAC362744824100AB0459 /* MakePollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC352744824000AB0459 /* MakePollView.swift */; };
+		926CAC392744827900AB0459 /* PollListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC382744827900AB0459 /* PollListView.swift */; };
+		926CAC3B27448C4C00AB0459 /* MakePollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC3A27448C4C00AB0459 /* MakePollViewModel.swift */; };
+		926CAC3D2745622600AB0459 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC3C2745622600AB0459 /* Poll.swift */; };
+		926CAC3F2745749800AB0459 /* PollResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC3E2745749800AB0459 /* PollResult.swift */; };
+		926CAC412745752600AB0459 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC402745752600AB0459 /* Option.swift */; };
+		926CAC442745B5AB00AB0459 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC432745B5AB00AB0459 /* NetworkManager.swift */; };
+		926CAC472745B5DB00AB0459 /* SPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC462745B5DB00AB0459 /* SPError.swift */; };
+		926CAC4A2745BD9900AB0459 /* PollVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC492745BD9900AB0459 /* PollVoteView.swift */; };
+		926CAC4C2745D3BA00AB0459 /* PollVoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926CAC4B2745D3BA00AB0459 /* PollVoteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		9259D88E274451D40060636C /* SimplePollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9259D892274451D40060636C /* SimplePollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePollUITests.swift; sourceTree = "<group>"; };
 		9259D894274451D40060636C /* SimplePollUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePollUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		926CAC3127447BA200AB0459 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		926CAC352744824000AB0459 /* MakePollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePollView.swift; sourceTree = "<group>"; };
+		926CAC382744827900AB0459 /* PollListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollListView.swift; sourceTree = "<group>"; };
+		926CAC3A27448C4C00AB0459 /* MakePollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePollViewModel.swift; sourceTree = "<group>"; };
+		926CAC3C2745622600AB0459 /* Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		926CAC3E2745749800AB0459 /* PollResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollResult.swift; sourceTree = "<group>"; };
+		926CAC402745752600AB0459 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		926CAC432745B5AB00AB0459 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		926CAC462745B5DB00AB0459 /* SPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPError.swift; sourceTree = "<group>"; };
+		926CAC492745BD9900AB0459 /* PollVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollVoteView.swift; sourceTree = "<group>"; };
+		926CAC4B2745D3BA00AB0459 /* PollVoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollVoteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,10 @@
 		9259D876274451D30060636C /* SimplePoll */ = {
 			isa = PBXGroup;
 			children = (
+				926CAC452745B5CF00AB0459 /* Utilities */,
+				926CAC422745B59D00AB0459 /* Managers */,
+				926CAC2E27447B8100AB0459 /* View */,
+				926CAC2D27447B7D00AB0459 /* Model */,
 				9259D877274451D30060636C /* SimplePollApp.swift */,
 				9259D879274451D30060636C /* ContentView.swift */,
 				9259D87B274451D40060636C /* Assets.xcassets */,
@@ -125,6 +151,69 @@
 				9259D894274451D40060636C /* SimplePollUITestsLaunchTests.swift */,
 			);
 			path = SimplePollUITests;
+			sourceTree = "<group>";
+		};
+		926CAC2D27447B7D00AB0459 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC3C2745622600AB0459 /* Poll.swift */,
+				926CAC3E2745749800AB0459 /* PollResult.swift */,
+				926CAC402745752600AB0459 /* Option.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		926CAC2E27447B8100AB0459 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC482745BD8700AB0459 /* PollVote */,
+				926CAC372744826600AB0459 /* PollList */,
+				926CAC332744822F00AB0459 /* MakePoll */,
+				926CAC3127447BA200AB0459 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		926CAC332744822F00AB0459 /* MakePoll */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC352744824000AB0459 /* MakePollView.swift */,
+				926CAC3A27448C4C00AB0459 /* MakePollViewModel.swift */,
+			);
+			path = MakePoll;
+			sourceTree = "<group>";
+		};
+		926CAC372744826600AB0459 /* PollList */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC382744827900AB0459 /* PollListView.swift */,
+			);
+			path = PollList;
+			sourceTree = "<group>";
+		};
+		926CAC422745B59D00AB0459 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC432745B5AB00AB0459 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		926CAC452745B5CF00AB0459 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC462745B5DB00AB0459 /* SPError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		926CAC482745BD8700AB0459 /* PollVote */ = {
+			isa = PBXGroup;
+			children = (
+				926CAC492745BD9900AB0459 /* PollVoteView.swift */,
+				926CAC4B2745D3BA00AB0459 /* PollVoteViewModel.swift */,
+			);
+			path = PollVote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +346,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926CAC392744827900AB0459 /* PollListView.swift in Sources */,
+				926CAC3F2745749800AB0459 /* PollResult.swift in Sources */,
+				926CAC442745B5AB00AB0459 /* NetworkManager.swift in Sources */,
+				926CAC3227447BA200AB0459 /* HomeView.swift in Sources */,
+				926CAC362744824100AB0459 /* MakePollView.swift in Sources */,
+				926CAC472745B5DB00AB0459 /* SPError.swift in Sources */,
+				926CAC3D2745622600AB0459 /* Poll.swift in Sources */,
+				926CAC3B27448C4C00AB0459 /* MakePollViewModel.swift in Sources */,
 				9259D87A274451D30060636C /* ContentView.swift in Sources */,
+				926CAC4A2745BD9900AB0459 /* PollVoteView.swift in Sources */,
+				926CAC412745752600AB0459 /* Option.swift in Sources */,
 				9259D878274451D30060636C /* SimplePollApp.swift in Sources */,
+				926CAC4C2745D3BA00AB0459 /* PollVoteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
